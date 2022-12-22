@@ -1,0 +1,32 @@
+Source: mapmap
+Section: utils
+Priority: extra
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>=11.0.0), qt5-qmake (>= 5.15), qtbase5-dev (>= 5.15),
+ libgstreamer1.0-dev (>= 1.18), qttools5-dev-tools (>= 5.15),
+ libgstreamer-plugins-base1.0-dev (>= 1.18) 
+Standards-Version: 3.9.6
+Homepage: https://github.com/mapmapteam/mapmap
+Vcs-Browser: https://github.com/mapmapteam/mapmap
+Vcs-Git: https://github.com/mapmapteam/mapmap
+
+Package: mapmap
+Architecture: amd64
+Depends: ${misc:Depends}
+Description: Free video mapping software
+ Projection mapping, also known as video mapping and spatial augmented reality,
+ is a projection technology used to turn objects, often irregularly shaped, 
+ into a display surface for video projection. 
+ .
+ These objects may be complex industrial landscapes, such as buildings. 
+ By using specialized software, 
+ a two or three dimensional object is spatially mapped on the virtual program 
+ which mimics the real environment it is to be projected on. 
+ .
+ The software can interact with a projector to fit any desired image onto the 
+ surface of that object. This technique is used by artists and advertisers 
+ alike who can add extra dimensions, optical illusions, and notions of movement
+ onto previously static objects. 
+ .
+ The video is commonly combined with, or triggered by, audio to create 
+ an audio-visual narrative.

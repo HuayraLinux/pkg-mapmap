@@ -1,0 +1,3 @@
+version=3
+
+https://github.com/mapmapteam/mapmap/tags .*/(.+)\.tar.gz
